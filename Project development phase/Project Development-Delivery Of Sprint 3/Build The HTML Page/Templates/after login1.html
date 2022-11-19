@@ -1,0 +1,99 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Real Time Communication System Powered By AI For Specially Abled</title>
+    <link href="C:\Users\aishu\Desktop\cfile.css" rel="stylesheet">
+    <script src="C:\Users\aishu\Desktop\cfile.js"></script>
+    <script src="C:\Users\aishu\Desktop\cfile.js"></script>
+    <script src="C:\Users\aishu\Desktop\cfile.js"></script>
+    <link href="/static/cfile.css" rel="stylesheet"> 
+<style>
+	
+	.bg-dark {
+		background-color: 	#21618C!important;
+	}
+	#result {
+		color: #ffffff;
+	}
+	body
+{
+    background-image: url("https://i.pinimg.com/originals/58/28/c5/5828c5a104f147e30ef1bed19798c2a8.jpg");
+    
+    background-size: cover;
+}
+
+	</style>
+</head>
+
+<body>
+
+    <h1>
+<b>
+<u>
+<center>
+    <nav class="">
+        <div class="container">
+<a class="yellow" href="#">Real Time Communication System Powered By AI For Specially Abled Using CNN</a>
+        </div>
+		</center>
+<u>
+<b>
+</h1>
+
+    </nav>
+    <div class="container">
+        <div id="content" style="margin-top:2em">
+		<div class="container">
+		  <div class="row">
+			<div class="col-sm-6 bd">
+			  <h2 color="white">Real Time Communication System Powered By AI For Specially Abled: </h2>
+			  <b>
+			  <br>
+			  <p> Designing and implementing a system using artificial intelligence, Deep Learning algorithms and image processing concepts to take input as hand gestures (or) sign language and It generates recognizable outputs in the form of text. We can convert the sign languages into text. So that the specially abled people will convey the message to normal people. </p>
+			  </b>
+				<img src="https://png.pngtree.com/element_our/png_detail/20181129/aphabets-by-fingers-from-american-sign-language-png_251331.jpg" height="50%",width="20%">       
+			</div>
+			<div class="col-sm-6">
+				<div>
+					<h3>Upload Image Here To Identify the Sign Language</h3>
+			<form action = "file:///C:/Users/aishu/Desktop/e3.html" id="upload-file" method="post" enctype="multipart/form-data">
+				<label for="imageUpload" class="upload-label">
+					Choose...
+				</label>
+				<input type="file" name="image" id="imageUpload" accept=".png, .jpg, .jpeg">
+			</form>
+			
+
+			<div class="image-section" style="display:none;">
+				<div class="img-preview">
+					<div id="imagePreview">
+					</div>
+				</div>
+				<div>
+					<button type="button" class="btn btn-info btn-lg " id="btn-predict">Predict!</button>
+				</div>
+			</div>
+
+			<div class="loader" style="display:none;"></div>
+
+			<h3>
+				<span id="result"> </span>
+			</h3>
+
+		</div>
+			</div>
+			 
+		  </div>
+		</div>
+		</div>
+    </div>
+</body>
+
+<footer>
+    <script src="{{ url_for('static', filename='cfile.js') }}" type="text/javascript"></script>    
+</footer>
+
+</html>
